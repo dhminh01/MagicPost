@@ -1,0 +1,89 @@
+nav {
+  background-color: #2674bd;
+  color: aliceblue;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 8px;
+}
+
+nav li a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+/* Add this to your existing style.css or in the style section of your HTML file */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container h5 {
+  text-decoration: none;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+}
+.container h4 {
+  text-decoration: none;
+  text-align: justify;
+  padding: 20px 0px;
+}
+.order_detail {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order_detail th,
+.order_detail td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.order_detail th {
+  background-color: #f2f2f2;
+}
+
+/* Optional: Add some styling for hover effect on rows */
+.order_detail tbody tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.create_order {
+  background-color: #2674bd; /* Set the background color */
+  color: white; /* Set the text color */
+  padding: 10px 20px; /* Set padding for the button */
+  font-size: 16px; /* Set the font size */
+  border: none; /* Remove the border */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer; /* Add a cursor pointer on hover */
+}
+
+.create_order:hover {
+  background-color: #45a049; /* Change the background color on hover */
+}
+
+.create_order a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 8px;
+}
